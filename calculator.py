@@ -12,8 +12,7 @@ def impartire(x, y):
         return "Eroare! Nu se poate imparti la 0."
     else:
         return x / y
-
-# Funcția principală pentru interfața cu utilizatorul
+        
 def calculator():
     print("Alegeti operatia dorita:")
     print("1. Adunare")
@@ -38,5 +37,4 @@ def calculator():
     else:
         print("Optiune invalida")
 
-# Apelăm funcția calculator
 calculator()
